@@ -1,0 +1,15 @@
+/* Universal Styles */
+* {
+
+}
+
+/* Body */
+
+body {
+  background-color: black;
+}
+
+.main-container {
+  display: block;
+  width: 100%;
+}
