@@ -46,6 +46,9 @@ body {
 #container .hover {
   border: 10px dotted #39FF14;
   background-color: black;
+  transition: background-color 0.8s;
+  -moz-transition: background-color 0.8s;
+  -webkit-transition: background-color 0.8s;
 }
 
 #container .hover:hover {
