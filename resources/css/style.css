@@ -41,23 +41,56 @@ body {
   height: 600px;
   background-color: white;
   text-align: center;
-  padding-top: 5%;
 }
+
+#container .hover {
+  border: 10px dotted #39FF14;
+  background-color: black;
+}
+
+#container .hover:hover {
+  background-color: white;
+}
+
+#container .hovertext {
+  height: 5%;
+  padding: 3%;
+  background-color: white;
+  padding-bottom: 5%;
+}
+
+#container .hovertext h1 {
+  font-family: fantasy;
+}
+/*#container .hovertext:hover {
+  background-color: white;
+}*/
 
 #container h1 {
   font-size: 40px;
-  padding-bottom: 5%;
+  padding-bottom:
+}
+
+#container .hovertext p{
+  font-size: 15px;
+  padding-bottom: 3%;
+  font-style: italic;
+}
+#container .padding-top {
+  padding-top: 5%;
 }
 
 #container h2 {
   font-size: 30px;
+  padding: 4%;
 }
 
 #explanation {
   margin: auto;
-  margin-top: 18%;
+  margin-top: 5.8%;
   width: 70%;
   border: 5px solid black;
+  margin-bottom: 2%;
 }
 
 #explanation p {
@@ -83,6 +116,7 @@ body {
   padding: 1%;
   color: white;
   font-weight: bolder;
+  font-family: monospace;
 }
 
 .content-box {
@@ -103,7 +137,8 @@ body {
   text-align: center;
   color: white;
   font-size: 100px;
-  border: 10px solid black;
+  border: 10px dashed black;
+  font-family: fantasy;
 }
 
 /* Footer */
@@ -117,6 +152,7 @@ footer {
 
 footer p {
   margin: 10px;
+  padding-left: 1%;
 }
 
 footer a {
